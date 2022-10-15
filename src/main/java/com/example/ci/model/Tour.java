@@ -45,7 +45,7 @@ public class Tour {
         this.keywords = keywords;
     }
 
-    public Tour(String title, String description, String blurb, Integer price, String duration, String bullets, String keywords, TourPackage tourPackage, Difficulty difficulty, Region region) {
+    public Tour(String title, String description, String blurb, int price, String duration, String bullets, String keywords, TourPackage tourPackage, Difficulty difficulty, Region region) {
     }
 
     public Integer getId() {

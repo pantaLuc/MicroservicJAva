@@ -8,4 +8,5 @@ import java.util.Optional;
 public interface TourPackageRepository extends CrudRepository<TourPackage ,String> {
     @Override
     Optional<TourPackage> findById(String s);
+    Optional<TourPackage> findByName(String Name);
 }
